@@ -65,10 +65,34 @@
 		</div>
 	</div>
 
+	<div id="modalForm" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="form">
+					<form action="form.php">
+						<div class="form-group">
+							<label for="nmb">Номер вашего телефона:</label>
+							<input type="text" class="form-control" id="nmb" placeholder="+38(093)-000-00-00" required>
+						</div>
+						<div class="form-group">
+							<label for="nm">Ваше имя:</label>
+							<input type="text" class="form-control" id="nm" placeholder="Люк Скайуокер" required>
+						</div>
+						<div class="form-group">
+							<label for="comment"></label>
+							<textarea class="form-control" rows="5" id="comment"></textarea>
+						</div>
+						<button type="button" class="btn btn-default" name="send" id="send">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	
 	
 	
-	<script src="js/jquery.min.js"></script>
+	<script src="libs/jquery/dist/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
 	<script src="js/lightgallery.min.js"></script>
 	<script src="js/angular.min.js"></script>
